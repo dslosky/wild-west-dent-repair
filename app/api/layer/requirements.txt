@@ -1,0 +1,7 @@
+fastapi
+pydantic
+pydantic-settings
+pydantic-core
+uvicorn
+boto3
+mangum

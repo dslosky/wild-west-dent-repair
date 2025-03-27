@@ -1,0 +1,81 @@
+.contact-container {
+    display: flex;
+    flex-direction: column
+}
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    display: block;
+    cursor: pointer;
+}
+.btn-blue {
+    @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+    @apply bg-blue-700;
+}
+
+.messageForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.messageForm form {
+    width: 100%
+}
+
+.messageForm input {
+    margin: 5px;
+    line-height: 2em;
+    padding: .5em;
+}
+
+.messageForm .verifiedField {
+    margin: 5px;
+    line-height: 2em;
+    padding: .5em;
+    display: inline-block;
+}
+
+.verifiedField p {
+    margin: 2px;
+
+}
+
+.messageForm textarea {
+    height: 10em;
+    max-width: 100em;
+    width: 80%;
+    margin: 5px;
+    padding: .5em;
+}
+
+.welcome {
+    margin: 1em;
+    padding: 2em;
+    border: 1px #ddd solid;
+    background: white;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.sentSuccess h1 {
+    margin-top: 10%;
+    color: white;
+    font-size: 3em
+}
+
+.sentSuccess p {
+    color: white;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
